@@ -22,8 +22,8 @@ This code has been used to automatically tune parameters of a Linear Quadratic R
 
 	Alonso Marco, Philipp Hennig, Jeannette Bohg, Stefan Schaal, Sebastian Trimpe,
 	"Automatic LQR Tuning Based on Gaussian Process Global Optimization", 
-	IEEE 2016 International Conference on Robotics and Automation (ICRA),
-	2020, accepted.
+	IEEE International Conference on Robotics and Automation (ICRA),
+	2016, accepted.
 
 Requirements
 ============
