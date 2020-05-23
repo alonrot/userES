@@ -50,22 +50,22 @@ Remarks
 	* Change the lengthscales and prior standard deviation in initialize_GP().
 	* At the moment, ES runs with squared exponential (SE) kernel and or rational quadratic (RQ) kernel. The corresponding functions are covSEard, covSEard_dx_MD, and covRQard,covRQard_dx_MD, respectively.
 	* The color code for the Gaussian process plots is:
-		Red dots: 	collected data
-		Black dot: 	Current estimate of the global minimum
-		In 1D:
-			Red line: 								posterior GP mean
-			Red transparent surface: 	+- two standard deviations, computed out of the posterior GP variance.
-			Dashed line: 							true function
-		In 2D:
-			Violet surface:							posterior GP mean
-			Grey transparent surface: 	+- two standard deviations, computed out of the posterior GP variance.
+    Red dots:   collected data
+    Black dot:  Current estimate of the global minimum
+    In 1D:
+      Red line:                 posterior GP mean
+      Red transparent surface:  +- two standard deviations, computed out of the posterior GP variance.
+      Dashed line:              true function
+    In 2D:
+      Violet surface:           posterior GP mean
+      Grey transparent surface: +- two standard deviations, computed out of the posterior GP variance.
 	* The output structure (out) contains several relevant fields:
-		out.FunEst: estimate of the location of the global minimum at each iteration
-		out.GPs{k}, being k the desired iteration number: useful information related to the utilized Gaussian 
-		process model, for example:
-		out.GPs{k}.x: location of the collected data points
-		out.GPs{k}.y: value of the collected data points
-		out.GPs{k}.z_plot: locations where the posterior mean and std are calculated to be plotted.
+    out.FunEst: estimate of the location of the global minimum at each iteration
+    out.GPs{k}, being k the desired iteration number: useful information related to the utilized Gaussian 
+    process model, for example:
+    out.GPs{k}.x: location of the collected data points
+    out.GPs{k}.y: value of the collected data points
+    out.GPs{k}.z_plot: locations where the posterior mean and std are calculated to be plotted.
 
 Contact information
 ===================
