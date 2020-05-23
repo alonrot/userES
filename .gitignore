@@ -1,0 +1,8 @@
+*.m~
+*.pyc
+*.ipynb_checkpoints
+gpml-matlab-v3.6-2015-07-07/
+.DS_Store
+results/
+data_from_cpp/
+update_plot_for_cpp_2D.m
