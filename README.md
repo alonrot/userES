@@ -9,7 +9,7 @@ This repository is a high-level user interface to run [Entropy Search (ES)](http
 	The Journal of Machine Learning Research (JMLR),
 	2012, accepted.
 
-This code has been used to automatically tune parameters of a Linear Quadratic Regulator (LQR) for a robot arm to balance an inverted pole. See the associated publication [here](https://arxiv.org/abs/1605.01950).
+This code has been used to automatically tune parameters of a Linear Quadratic Regulator (LQR) for a robot arm to balance an inverted pole. See the associated publication [here](https://arxiv.org/abs/1605.01950) and a video description of the method and the results [here](https://youtu.be/TrGc4qp3pDM).
 
 	Alonso Marco, Philipp Hennig, Jeannette Bohg, Stefan Schaal, Sebastian Trimpe,
 	"Automatic LQR Tuning Based on Gaussian Process Global Optimization", 
