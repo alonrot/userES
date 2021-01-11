@@ -22,8 +22,13 @@ This code has been used to automatically tune parameters of a Linear Quadratic R
 
 	Alonso Marco, Philipp Hennig, Jeannette Bohg, Stefan Schaal, Sebastian Trimpe,
 	"Automatic LQR Tuning Based on Gaussian Process Global Optimization", 
-	IEEE International Conference on Robotics and Automation (ICRA),
-	2016, accepted.
+	IEEE International Conference on Robotics and Automation (ICRA), 2016
+	
+It has also been used to automatically tune the controller parameters of a throttle valve, which is a common benchmark in the industry.
+	
+	Matthias Neumann-Brosig, Alonso Marco, Dieter Schwarzmann, Sebastian Trimpe
+	"Data-efficient Auto-tuning with Bayesian Optimization: An Industrial Control Study"
+	IEEE Transactions on Control Systems Technology, 2019
 
 Requirements
 ============
